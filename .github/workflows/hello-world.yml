@@ -1,7 +1,6 @@
 name: Hello World
 on: 
-schedule:
-    - cron: '* * * * *'
+ workflow_run: 
 jobs: 
     hello-job:
      runs-on: ubuntu-latest
